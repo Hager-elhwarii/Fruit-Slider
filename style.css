@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=K2D:wght@800&family=Monoton&family=Orbitron:wght@500;900&family=Roboto:ital@1&family=Zen+Dots&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=K2D:wght@800&family=Monoton&family=Orbitron:wght@500;900&family=Roboto:ital@1&family=Zen+Dots&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=K2D:wght@800&family=Monoton&family=Orbitron:wght@500;900&family=Roboto:ital@1&family=Zen+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=K2D:wght@800&family=Monoton&family=Orbitron:wght@500;900&family=Roboto:ital@1&family=Zen+Dots&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: rgb(214, 210, 210);
+  background-color: #eee;
   overflow: hidden;
 }
 img {
@@ -45,7 +45,7 @@ img {
 .content > h1 {
   font-size: 54px;
   margin-bottom: 10px;
-  font-family: 'Zen Dots', cursive;
+  font-family: "Zen Dots", cursive;
   color: rgb(37, 158, 176);
 }
 .k {
@@ -53,7 +53,7 @@ img {
   font-size: 28px;
   font-weight: bold;
   color: rgb(40, 40, 40);
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
 }
 button {
   padding: 20px 30px;
