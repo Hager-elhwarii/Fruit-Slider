@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=K2D:wght@800&family=Monoton&family=Orbitron:wght@500;900&family=Roboto:ital@1&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@800&family=Monoton&family=Orbitron:wght@500;900&family=Roboto:ital@1&family=Zen+Dots&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(214, 210, 210);
+  overflow: hidden;
+}
+img {
+  width: 16%;
+  height: 300px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#vip {
+  width: 20%;
+  height: 325px;
+  border-radius: 50%;
+}
+.back {
+  background-color: rgba(47, 45, 45, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 99%;
+}
+.images {
+  margin-top: 10px;
+  text-align: center;
+}
+.content {
+  position: relative;
+  top: 70px;
+  left: 30px;
+}
+.content > h1 {
+  font-size: 54px;
+  margin-bottom: 10px;
+  font-family: 'Zen Dots', cursive;
+  color: rgb(37, 158, 176);
+}
+.k {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(40, 40, 40);
+  font-family: 'Exo 2', sans-serif;
+}
+button {
+  padding: 20px 30px;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(224, 142, 131);
+  color: rgb(234, 226, 226);
+}
+button:hover {
+  background-color: rgb(204, 131, 121);
+  cursor: pointer;
+}
